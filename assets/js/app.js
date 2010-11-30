@@ -46,6 +46,9 @@ run(function () {
             });
         });
     });
+	when('#wiki', function () {
+		self.location.href = 'http://en.wikipedia.org/wiki/Special:Random';
+	});
     when('#save', function () {
         store.save({
             key:'config',
