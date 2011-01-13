@@ -3,7 +3,7 @@
 //
 run(function () {
     // immediately invoked on first run
-    var init = (function () {
+  /*  var init = (function () {
         navigator.network.isReachable("google.com", function(status) {
 			var connectivity = (status.internetConnectionStatus || status.code || status);
         	if (connectivity === NetworkStatus.NOT_REACHABLE) {
@@ -45,16 +45,16 @@ run(function () {
                 x$('img#static_map').attr('src', path);
             });
         });
-    });
+    });*/
 	when('#wiki', function () {
 		self.location.href = 'http://en.wikipedia.org/wiki/Special:Random';
 	});
-    when('#save', function () {
+    /*when('#save', function () {
         store.save({
             key:'config',
             map:ui('map'),
             zoom:ui('zoom')
         });
         display('#welcome');
-    });
+    });*/
 });
