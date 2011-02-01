@@ -49,6 +49,10 @@ run(function () {
 	when('#wiki', function () {
 		self.location.href = 'http://en.wikipedia.org/wiki/Special:Random';
 	});
+	when('#monitor', function () {
+		self.location.href = 'https://monitor.distimo.com/m/';
+	});
+
     /*when('#save', function () {
         store.save({
             key:'config',
