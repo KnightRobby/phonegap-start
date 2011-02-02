@@ -4,11 +4,11 @@
 run(function () {
     // immediately invoked on first run
     var init = (function () {
-		alert('date');
+/*		alert('date');
 
 		alert((new Date()).toLocaleString());
 
-		document.getElementById('time').innerHTML = (new Date()).toLocaleString();
+		document.getElementById('time').innerHTML = (new Date()).toLocaleString();*/
 
     })();
     
