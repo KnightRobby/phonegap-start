@@ -52,6 +52,10 @@ run(function () {
 	when('#monitor', function () {
 		self.location.href = 'https://monitor.distimo.com/m/';
 	});
+	when('#phonegap', function () {
+		self.location.href = 'http://aegir.fokdat.nl/Code/Phonegap/phonegap-start';
+	});
+
 
     /*when('#save', function () {
         store.save({
