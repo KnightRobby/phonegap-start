@@ -14,7 +14,7 @@
 	var url = document.querySelector('#url');
 	document.querySelector('#go').onsubmit = function(e){
 			e.preventDefault();
-			self.location.href = url.value;
+			self.location = url.value;
 			return false;
 	};
 
